@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "uwBetterLearn",
+    "version": "0.1",
+
+    "description": "Enhances the look of the new learn.",
+
+    "content_scripts":[
+        {
+            "matches":[
+                "https://learn.uwaterloo.ca/*"
+            ],
+            "js":["jquery.js","content.js"],
+            "css":["uwStyle.css"]
+        }
+    ]
+  }
