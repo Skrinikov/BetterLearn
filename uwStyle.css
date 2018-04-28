@@ -7,10 +7,14 @@
     Ye
 */
 
+html, body{
+    height:100%;
+}
+
 /*Body*/
 body#d2l_body,
 body.d2l-body{
-    background-color:#ccc;
+    background-color:#EEE;
 }
 
 header nav.d2l-navigation-s{
@@ -40,6 +44,7 @@ d2l-dropdown button.d2l-navigation-s-group:focus,
 d2l-dropdown button.d2l-navigation-s-group:hover d2l-icon,
 d2l-dropdown button.d2l-navigation-s-group:focus d2l-icon{
     color:#D1A822;
+
 }
 
 header nav div a.d2l-navigation-s-link:hover
@@ -66,7 +71,8 @@ d2l-dropdown button.d2l-navigation-s-button-highlight:focus d2l-icon,
 d2l-dropdown button.d2l-navigation-s-button-highlight:hover d2l-icon, 
 d2l-dropdown button.d2l-navigation-s-button-highlight:focus, 
 d2l-dropdown button.d2l-navigation-s-button-highlight:hover{
-    color:#D1A822;
+    /*color:#D1A822;*/
+    color:#fff;
 }
 
 d2l-dropdown button.d2l-navigation-s-button-highlight[data-active] .d2l-navigation-s-highlight-bar{
@@ -80,4 +86,37 @@ button.d2l-navigation-s-button-highlight[data-active] d2l-icon svg{
 
 .d2l-dropdown-content-top.d2l-dropdown-content{
     background-color:#FDD54F;
+}
+
+div.d2l-navigation-s-main{
+    border-bottom:none;
+}
+
+/*Changing the page layout from centered to taking the full page.*/
+div.d2l-max-width{
+    max-width: none;
+}
+
+div.d2l-course-banner-container{
+    max-width: none;
+    margin: 0;
+}
+
+div.d2l-twopanelselector-side-bg.d2l-twopanelselector-side-sep, 
+div.d2l-twopanelselector-side.d2l-twopanelselector-side-sep{
+    background:none;
+    background-color:#BBB;
+    bottom:0;
+}
+
+.d2l-twopanelselector-wrapper{
+    height: 85%;
+}
+
+.d2l-box-layout{
+    height: 100%;
+}
+
+.d2l-le-TreeAccordionItem-wrapper{
+    color:#222;
 }

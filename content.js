@@ -11,4 +11,8 @@ $('.homepage-container').children('.homepage-col-8').children('div').first().rem
 */
 $('a.d2l-navigation-s-logo-link').children('img').first().attr('src',chrome.runtime.getURL("assets/waterloo-learn.png"));
 
+/*
+    Removes gradient because it looks bad and is useless.
+*/
 $('.d2l-navigation-s-shadow-gradient').remove();
+$('.d2l-twopanelselector-side-bg.d2l-twopanelselector-side-sep.d2l-repsonsive-collapse-layout').remove();
