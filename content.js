@@ -16,3 +16,7 @@ $('a.d2l-navigation-s-logo-link').children('img').first().attr('src',chrome.runt
 */
 $('.d2l-navigation-s-shadow-gradient').remove();
 $('.d2l-twopanelselector-side-bg.d2l-twopanelselector-side-sep.d2l-repsonsive-collapse-layout').remove();
+
+$('span.fa-times').click(function(){
+    $('.homepage-col-4').children("div").first().fadeOut();
+});

@@ -132,3 +132,16 @@ d2l-tr[header]:not([style-scope]):not(.style-scope)>d2l-th:not([style-scope]):no
     background-color: #222;
     color:#fff;
 }
+
+.homepage-col-4 > div{
+    color:#000;
+    transition: color 0.5s;
+}
+
+span.fa-times:hover{
+    color:#555;
+}
+.homepage-col-4{
+    height: 100%;
+    overflow-y:scroll;
+}
