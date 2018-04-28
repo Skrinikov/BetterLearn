@@ -92,6 +92,10 @@ div.d2l-navigation-s-main{
     border-bottom:none;
 }
 
+.d2l-button:hover{
+    color:#1C5295;
+}
+
 /*Changing the page layout from centered to taking the full page.*/
 div.d2l-max-width{
     max-width: none;
@@ -119,4 +123,12 @@ div.d2l-twopanelselector-side.d2l-twopanelselector-side-sep{
 
 .d2l-le-TreeAccordionItem-wrapper{
     color:#222;
+}
+
+table.d2l-table:not([style-scope]):not(.style-scope)>*:not([style-scope]):not(.style-scope)>tr[header]:not([style-scope]):not(.style-scope)>th:not([style-scope]):not(.style-scope),
+table.d2l-table:not([style-scope]):not(.style-scope)>thead:not([style-scope]):not(.style-scope)>tr:not([style-scope]):not(.style-scope)>th:not([style-scope]):not(.style-scope),
+d2l-thead:not([style-scope]):not(.style-scope)>d2l-tr:not([style-scope]):not(.style-scope)>d2l-th:not([style-scope]):not(.style-scope),
+d2l-tr[header]:not([style-scope]):not(.style-scope)>d2l-th:not([style-scope]):not(.style-scope){
+    background-color: #222;
+    color:#fff;
 }
