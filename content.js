@@ -1,5 +1,12 @@
 var background = {'background:': '#000000'};
 var text = {'color': '#fff'};
 
-// $('.d2l-navigation-s.d2l-navigation-s-has-branding').css("background", "#000").css("color","#FDD54F");
-// $('.d2l-navigation-s-item a').css("color","#FDD54F");
+/*
+    Removes the System Alert history tab since it is useless.
+*/
+$('.homepage-container').children('.homepage-col-8').children('div').first().remove();
+
+/*
+    Changes the image from the bar for a new one.
+*/
+$('a.d2l-navigation-s-logo-link').children('img').first().attr('src',chrome.runtime.getURL("assets/waterloo-learn.png"));

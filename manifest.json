@@ -13,5 +13,9 @@
             "js":["jquery.js","content.js"],
             "css":["uwStyle.css"]
         }
+    ],
+
+    "web_accessible_resources": [
+        "assets/*.png"
     ]
   }
