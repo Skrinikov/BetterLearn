@@ -58,9 +58,9 @@ span.d2l-navigation-s-highlight-bar{
     transition: color .4s;
 }
 
-d2l-icon.d2l-icon-0{
+/* d2l-icon.d2l-icon-0{
     color:#FDD54F;
-}
+} */
 
 d2l-dropdown button.d2l-navigation-s-button-highlight:focus d2l-icon, 
 d2l-dropdown button.d2l-navigation-s-button-highlight:hover d2l-icon, 
